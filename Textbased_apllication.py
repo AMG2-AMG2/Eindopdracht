@@ -1,3 +1,43 @@
+def vraag15 ():
+
+    print("Hebben jullie tijd gehad om jullie spullen te pakken")
+    print("a = Nee.")
+    print("b = Ja.")
+
+    antwoord15 = input ()
+    if antwoord15.lower() == "a":
+        print("Nee want anders zouden we de risico lopen dat we dood zouden gaan.")
+        print(vraag16())
+    elif antwoord15.lower() == "b":
+        print("Ja want ze zeiden tegen ons jullie zijn lief pak je spullen maar (hahaha)")
+        print(vraag15())
+    else: 
+        print("Kies a,b")
+
+    print(vraag15())
+
+
+
+def vraag14 ():
+
+    print("Zijn jullie ook buiten gaan slapen?")
+    print("a = Ja.")
+    print("b = Nee.")
+
+    antwoord14 = input ()
+    if antwoord14.lower() == "a":
+        print("Ja want we hadden geen plek om te overnachten,")
+        print(vraag15())
+    elif antwoord14.lower() == "b":
+        print("Nee het was heel erg luxe en daarom was het geen probleem.")
+        print(vraag14())
+    else: 
+        print("Kies a,b")
+
+    print(vraag14())
+
+
+
 def vraag13 ():
 
     print("Hebben jullie moeite gehad bij het vluchten?")
@@ -47,10 +87,10 @@ def vraag11 ():
     antwoord11 = input ()
     if antwoord11.lower() == "a":
         print("Is hij alles van te voren gaan regelen?")
-        print(vraag10())
+        print(vraag12())
     elif antwoord11.lower() == "b":
         print("Waarom zijn jullie niet samen gevlucht?")
-        print(vraag12())
+        print(vraag10())
     else: 
         print("Kies a,b")
 
@@ -110,10 +150,10 @@ def vraag8 ():
         print(vraag1())
     elif antwoord8.lower() == "b":
         print("Het veiligste en beste")
-        print(vraag9())
+        print(vraag8())
     elif antwoord8.lower() == "c":
         print("Dan duurt het heel lang en kan je dood gaan")
-        print(vraag8())
+        print(vraag9())
     else: 
         print("Kies a,b of c")
 
