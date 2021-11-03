@@ -1,15 +1,164 @@
+def vraag22 ():
+
+    print("Dit is mijn einde van mijn text-based applicatie.")
+    print("a = Was het goed")
+    print("b = Was het slecht.")
+
+
+    antwoord21 = input ()
+    if antwoord21.lower() == "a":
+        print("Heb je nog tip voor mij wat beter kon of is hij goed.")
+        print(vraag21())
+    elif antwoord21.lower() == "b":
+        print("Kan je me dan uitleggen wat me verbeter punten zijn.")
+        print(vraag())
+    else: 
+        print("Kies a,b")
+
+    print(vraag22())
+
+
+def vraag21 ():
+
+    print("Zijn jullie nu gellukig")
+    print("a = Nee")
+    print("b = Ja.")
+
+
+    antwoord21 = input ()
+    if antwoord21.lower() == "a":
+        print("Waarom zijn jullie niet gelukkig?")
+        print(vraag21())
+    elif antwoord21.lower() == "b":
+        print("Oke dat is fijn jullie kunnen werken nu aan jullie toekomst.")
+        print(vraag())
+    else: 
+        print("Kies a,b")
+
+    print(vraag21())
+
+
+def vraag20 ():
+
+    print("Hebben je ouders als werk?")
+    print("a = Ja.")
+    print("b = Nee.")
+    print("c = Alleen me vader.")
+
+    antwoord20 = input ()
+    if antwoord20.lower() == "a":
+        print("Oke dus allebij hebben werk gevonden.")
+        print(vraag21())
+    elif antwoord20.lower() == "b":
+        print("Dan kunnen de huishouden niet betaalt worden.")
+        print(vraag1())
+   elif antwoord20.lower() == "c":
+        print("Dus je vader werkt dat is goed dan let je moeder op jullie op.")
+        print(vraag21())
+    else: 
+        print("Kies a,b of c")
+
+    print(vraag20())
+
+
+def vraag19 ():
+
+    print("Hebben jullie al een opleiding en verblijs plek?")
+    print("a = Ja.")
+    print("b = Nee.")
+
+    antwoord19 = input ()
+    if antwoord19.lower() == "a":
+        print("Jullie zijn nu echt gelukkig en jullie zijn compleet.")
+        print(vraag20())
+    elif antwoord19.lower() == "b":
+        print("Dan moeten jullie dat snel doen voor jullie toekomst.")
+        print(vraag19())
+    else: 
+        print("Kies a,b")
+
+    print(vraag19())
+
+
+def vraag18 ():
+
+    print("Hebben jullie al een vergunning gekregen.")
+    print("a = Ja.")
+    print("b = Nee.")
+    print("c = Bijna.")
+
+    antwoord18 = input ()
+    if antwoord18.lower() == "a":
+        print("Oke jullie zijn nu gelukkig en veilig.")
+        print(vraag19())
+    elif antwoord18.lower() == "b":
+        print("Dat is pech je moet nu oppasen want je bent zonder papieren je moet opnieuw aanvragen.")
+        print(vraag17())
+    elif antwoord18.lower() == "c":
+        print("Oke nu wachten tot jullie antwoord hebben.")
+        print(vraag19())
+    else: 
+        print("Kies a,b of c")
+
+    print(vraag18())
+
+
+
+def vraag17 ():
+
+    print("Is iedereen van jullie familie compleet?")
+    print("a = Bijna.")
+    print("b = Ja.")
+    print("c = Nee")
+
+    antwoord17 = input ()
+    if antwoord17.lower() == "a":
+        print("Oke jullie hebben hem gesprokken en hij is onderweg.")
+        print(vraag18())
+    elif antwoord17.lower() == "b":
+        print("oke dus jullie zijn nu gellukig en samen.")
+        print(vraag16())
+    elif antwoord8.lower() == "c":
+        print("Waarom is je vader niet meer terug gekomen dus hij is dood gegaan.")
+        print(vraag1())
+    else: 
+        print("Kies a,b of c")
+
+    print(vraag17())
+
+
+
+def vraag16 ():
+
+    print("Zijn jullie veilig aangekomen in Nederland?")
+    print("a = Ja Ja.")
+    print("b = Nee Nee.")
+
+    antwoord16 = input ()
+    if antwoord16.lower() == "a":
+        print("We zijn gelukkig en heel erg veilig aangekomen in Nederland we hebben niks meegemaakt.")
+        print(vraag17())
+    elif antwoord16.lower() == "b":
+        print("We zijn niet veilig aangekomen want we hebben erige dingen meegemaakt.")
+        print(vraag16())
+    else: 
+        print("Kies a,b")
+
+    print(vraag16())
+
+
 def vraag15 ():
 
     print("Hebben jullie tijd gehad om jullie spullen te pakken")
-    print("a = Nee.")
-    print("b = Ja.")
+    print("a = Ja.")
+    print("b = Nee.")
 
     antwoord15 = input ()
     if antwoord15.lower() == "a":
-        print("Nee want anders zouden we de risico lopen dat we dood zouden gaan.")
+        print("Ja want ze zeiden tegen ons jullie zijn lief pak je spullen maar (hahaha)")
         print(vraag16())
     elif antwoord15.lower() == "b":
-        print("Ja want ze zeiden tegen ons jullie zijn lief pak je spullen maar (hahaha)")
+        print("Nee want anders zouden we de risico lopen dat we dood zouden gaan.")
         print(vraag15())
     else: 
         print("Kies a,b")
@@ -21,15 +170,15 @@ def vraag15 ():
 def vraag14 ():
 
     print("Zijn jullie ook buiten gaan slapen?")
-    print("a = Ja.")
-    print("b = Nee.")
+    print("a = Nee.")
+    print("b = Ja.")
 
     antwoord14 = input ()
     if antwoord14.lower() == "a":
-        print("Ja want we hadden geen plek om te overnachten,")
+        print("Nee het was heel erg luxe en daarom was het geen probleem.")
         print(vraag15())
     elif antwoord14.lower() == "b":
-        print("Nee het was heel erg luxe en daarom was het geen probleem.")
+        print("Ja want we hadden geen plek om te overnachten,")
         print(vraag14())
     else: 
         print("Kies a,b")
