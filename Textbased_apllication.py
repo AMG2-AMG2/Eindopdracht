@@ -8,10 +8,10 @@ def vraag22 ():
     antwoord21 = input ()
     if antwoord21.lower() == "a":
         print("Heb je nog tip voor mij wat beter kon of is hij goed.")
-        print(vraag21())
+        print(vraag22())
     elif antwoord21.lower() == "b":
         print("Kan je me dan uitleggen wat me verbeter punten zijn.")
-        print(vraag())
+        print(vraag22())
     else: 
         print("Kies a,b")
 
