@@ -31,13 +31,14 @@ def vraag21 ():
         print(vraag21())
     elif antwoord21.lower() == "b":
         print("Oke dat is fijn jullie kunnen werken nu aan jullie toekomst.")
-        print(vraag())
+        print(vraag22())
     else: 
         print("Kies a,b")
 
     print(vraag21())
 
-
+    
+    
 def vraag20 ():
 
     print("Hebben je ouders als werk?")
@@ -52,13 +53,14 @@ def vraag20 ():
     elif antwoord20.lower() == "b":
         print("Dan kunnen de huishouden niet betaalt worden.")
         print(vraag1())
-   elif antwoord20.lower() == "c":
+    elif antwoord20.lower() == "c":
         print("Dus je vader werkt dat is goed dan let je moeder op jullie op.")
         print(vraag21())
     else: 
         print("Kies a,b of c")
 
     print(vraag20())
+
 
 
 def vraag19 ():
